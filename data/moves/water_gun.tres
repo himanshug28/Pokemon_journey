@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MoveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/move_data.gd" id="1_wdxlr"]
+
+[resource]
+script = ExtResource("1_wdxlr")
+id = "water_gun"
+display_name = "Water Gun"
+poke_type = "water"
+power = 40
+max_pp = 25
+description = "Squirts a precise jet of water."

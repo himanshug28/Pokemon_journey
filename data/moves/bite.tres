@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MoveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/move_data.gd" id="1_r1xkl"]
+
+[resource]
+script = ExtResource("1_r1xkl")
+id = "bite"
+display_name = "Bite"
+poke_type = "dark"
+power = 60
+max_pp = 25
+description = "A vicious bite with dark energy."

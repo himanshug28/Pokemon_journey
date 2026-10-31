@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="PokemonData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/move_data.gd" id="1_dunch"]
+[ext_resource type="Resource" path="res://data/moves/flamethrower.tres" id="2_2wwjn"]
+[ext_resource type="Resource" path="res://data/moves/air_slash.tres" id="3_eyuvw"]
+[ext_resource type="Resource" path="res://data/moves/fire_fang.tres" id="4_n50dr"]
+[ext_resource type="Resource" path="res://data/moves/slash.tres" id="5_cnb1y"]
+[ext_resource type="Script" path="res://scripts/data/pokemon_data.gd" id="6_5x124"]
+
+[resource]
+script = ExtResource("6_5x124")
+id = "charizard"
+display_name = "Charizard"
+dex_number = 6
+description = "A proud flame Pokémon. Its blazing tail burns brighter when it is ready for battle."
+primary_type = "fire"
+secondary_type = "flying"
+base_hp = 78
+attack = 84
+defense = 78
+speed = 100
+moves = Array[ExtResource("1_dunch")]([ExtResource("2_2wwjn"), ExtResource("3_eyuvw"), ExtResource("4_n50dr"), ExtResource("5_cnb1y")])
+body_color = Color(0.9490196, 0.54509807, 0.1882353, 1)
+belly_color = Color(1, 0.8784314, 0.6392157, 1)
+accent_color = Color(0.21960784, 0.78039217, 0.76862746, 1)
+model_scale = 1.18
+model_path = "res://assets/models/charizard.glb"
+battle_cry_pitch = 0.86
+unlock_regular_wins = 3
+unlock_hint = "Win 3 regular matches"

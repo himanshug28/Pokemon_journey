@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/move_data.gd" id="1_8as4s"]
+
+[resource]
+script = ExtResource("1_8as4s")
+id = "razor_leaf"
+display_name = "Razor Leaf"
+poke_type = "grass"
+power = 55
+accuracy = 95
+max_pp = 25
+description = "Sharp leaves slice at the target with a high critical-hit chance."
+crit_bonus = 1

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="PokemonData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/move_data.gd" id="1_pak30"]
+[ext_resource type="Resource" path="res://data/moves/water_gun.tres" id="2_pqftr"]
+[ext_resource type="Resource" path="res://data/moves/surf.tres" id="3_amckf"]
+[ext_resource type="Resource" path="res://data/moves/bite.tres" id="4_q36oc"]
+[ext_resource type="Resource" path="res://data/moves/withdraw.tres" id="5_ujq1l"]
+[ext_resource type="Script" path="res://scripts/data/pokemon_data.gd" id="6_o28sn"]
+
+[resource]
+script = ExtResource("6_o28sn")
+id = "squirtle"
+display_name = "Squirtle"
+dex_number = 7
+description = "A cheerful turtle Pokémon that shelters in its shell and fires precise water jets."
+primary_type = "water"
+base_hp = 44
+attack = 48
+defense = 65
+speed = 43
+moves = Array[ExtResource("1_pak30")]([ExtResource("2_pqftr"), ExtResource("3_amckf"), ExtResource("4_q36oc"), ExtResource("5_ujq1l")])
+body_color = Color(0.39607844, 0.7490196, 0.9411765, 1)
+belly_color = Color(0.9607843, 0.8901961, 0.6901961, 1)
+accent_color = Color(0.6627451, 0.44313726, 0.24705882, 1)
+model_scale = 0.9
+model_path = "res://assets/models/squirtle.glb"
+battle_cry_pitch = 1.26
+unlock_regular_wins = 2
+unlock_hint = "Win 2 regular matches"

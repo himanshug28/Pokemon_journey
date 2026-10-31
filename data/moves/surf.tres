@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MoveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/move_data.gd" id="1_42yn1"]
+
+[resource]
+script = ExtResource("1_42yn1")
+id = "surf"
+display_name = "Surf"
+poke_type = "water"
+power = 90
+description = "A huge wave crashes down on the target."

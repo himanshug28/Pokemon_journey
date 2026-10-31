@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="PokemonData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/move_data.gd" id="1_cnu0y"]
+[ext_resource type="Resource" path="res://data/moves/vine_whip.tres" id="2_o2uvk"]
+[ext_resource type="Resource" path="res://data/moves/razor_leaf.tres" id="3_hxkmc"]
+[ext_resource type="Resource" path="res://data/moves/sludge.tres" id="4_mj1io"]
+[ext_resource type="Resource" path="res://data/moves/synthesis.tres" id="5_dylkh"]
+[ext_resource type="Script" path="res://scripts/data/pokemon_data.gd" id="6_1m6uw"]
+
+[resource]
+script = ExtResource("6_1m6uw")
+id = "bulbasaur"
+display_name = "Bulbasaur"
+dex_number = 1
+description = "A gentle seed Pokémon that draws power from the bulb on its back."
+primary_type = "grass"
+secondary_type = "poison"
+base_hp = 45
+attack = 49
+defense = 49
+speed = 45
+moves = Array[ExtResource("1_cnu0y")]([ExtResource("2_o2uvk"), ExtResource("3_hxkmc"), ExtResource("4_mj1io"), ExtResource("5_dylkh")])
+body_color = Color(0.4, 0.7764706, 0.63529414, 1)
+belly_color = Color(0.72156864, 0.9098039, 0.78431374, 1)
+accent_color = Color(0.30588236, 0.6392157, 0.30980393, 1)
+model_scale = 0.92
+model_path = "res://assets/models/bulbasaur.glb"
+battle_cry_pitch = 1.18
+unlock_regular_wins = 1
+unlock_hint = "Win 1 regular match"

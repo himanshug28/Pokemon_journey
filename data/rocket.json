@@ -1,0 +1,56 @@
+[
+  {
+    "id": "rico",
+    "name": "Rocket Grunt Rico",
+    "title": "Team Rocket Grunt",
+    "pokemon": "gengar",
+    "shadow": true,
+    "display_override": "Shadow Gengar",
+    "level_offset": 2,
+    "intro": "Team Rocket has taken over this arena! Hand over your Pokémon, kid!",
+    "defeat": "No way! My shadow strategy... beaten!",
+    "accent": "#ff334d",
+    "xp": 170,
+    "lines": [
+      "Listen up, arena! Team Rocket is running the show now!",
+      "That Pokémon is coming with us. Make it easy on yourself!",
+      "Shadow Gengar, show this rookie what real fear feels like!"
+    ]
+  },
+  {
+    "id": "vera",
+    "name": "Rocket Admin Vera",
+    "title": "Team Rocket Admin",
+    "pokemon": "charizard",
+    "shadow": true,
+    "display_override": "Shadow Charizard",
+    "level_offset": 3,
+    "intro": "You've been a nuisance long enough. Team Rocket finishes this tonight.",
+    "defeat": "This isn't over. Team Rocket always finds a way back!",
+    "accent": "#ff5c67",
+    "xp": 210,
+    "lines": [
+      "So you're the trainer causing all this trouble.",
+      "A strong bond? How sentimental. Power is what wins battles.",
+      "Shadow Charizard, burn this arena to the ground!"
+    ]
+  },
+  {
+    "id": "vex",
+    "name": "Rocket Executive Vex",
+    "title": "Team Rocket Executive",
+    "pokemon": "gengar",
+    "shadow": true,
+    "display_override": "Shadow Gengar",
+    "level_offset": 4,
+    "intro": "The boss wants your Pokémon. I never leave a job unfinished.",
+    "defeat": "The boss will hear about this... you haven't seen the last of us.",
+    "accent": "#ff7a2e",
+    "xp": 260,
+    "lines": [
+      "You've interfered with Team Rocket for the last time.",
+      "Every victory makes you more valuable. The boss wants a demonstration.",
+      "Let's see how your partner handles the dark."
+    ]
+  }
+]

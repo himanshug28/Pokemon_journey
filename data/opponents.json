@@ -1,0 +1,68 @@
+[
+  {
+	"id": "ben",
+	"name": "Youngster Ben",
+	"title": "Playground Regular",
+	"pokemon": "bulbasaur",
+	"level_offset": -1,
+	"intro": "Hey! I've been training all morning. Let's battle!",
+	"defeat": "Whoa, your bond is really something!",
+	"accent": "#66e3a4",
+	"xp": 55
+  },
+  {
+	"id": "maya",
+	"name": "Camper Maya",
+	"title": "Stadium Scout",
+	"pokemon": "squirtle",
+	"level_offset": 0,
+	"intro": "The playground is the best place to test a new strategy.",
+	"defeat": "I'll be back with a better plan!",
+	"accent": "#78e2ff",
+	"xp": 62
+  },
+  {
+	"id": "leo",
+	"name": "Ace Trainer Leo",
+	"title": "Rising Star",
+	"pokemon": "charizard",
+	"level_offset": 0,
+	"intro": "You made it this far? Then show me a battle worth watching!",
+	"defeat": "Incredible... the crowd loves you!",
+	"accent": "#ff9a3d",
+	"xp": 74
+  },
+  {
+	"id": "nyx",
+	"name": "Hex Maniac Nyx",
+	"title": "Shadow Seeker",
+	"pokemon": "gengar",
+	"level_offset": 0,
+	"intro": "Hehehe... let's see if you can follow my shadow.",
+	"defeat": "You saw right through the trick...",
+	"accent": "#b28bff",
+	"xp": 78
+  },
+  {
+	"id": "rin",
+	"name": "Sparky Rin",
+	"title": "Volt Runner",
+	"pokemon": "pikachu",
+	"level_offset": 1,
+	"intro": "Too slow! My partner moves at lightning speed!",
+	"defeat": "Zapped my own confidence... nice battle!",
+	"accent": "#ffd05a",
+	"xp": 82
+  },
+  {
+	"id": "gale",
+	"name": "Veteran Gale",
+	"title": "Arena Veteran",
+	"pokemon": "charizard",
+	"level_offset": 1,
+	"intro": "The stadium has seen a thousand battles. Let's add another.",
+	"defeat": "A brilliant finish. The arena remembers.",
+	"accent": "#ff5c67",
+	"xp": 92
+  }
+]

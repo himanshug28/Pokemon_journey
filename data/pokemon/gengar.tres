@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="PokemonData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/move_data.gd" id="1_li1w4"]
+[ext_resource type="Resource" path="res://data/moves/shadow_ball.tres" id="2_8135i"]
+[ext_resource type="Resource" path="res://data/moves/sludge_bomb.tres" id="3_t0151"]
+[ext_resource type="Resource" path="res://data/moves/dark_pulse.tres" id="4_32psp"]
+[ext_resource type="Resource" path="res://data/moves/lick.tres" id="5_jkoe4"]
+[ext_resource type="Script" path="res://scripts/data/pokemon_data.gd" id="6_f2rbb"]
+
+[resource]
+script = ExtResource("6_f2rbb")
+id = "gengar"
+display_name = "Gengar"
+dex_number = 94
+description = "A mischievous shadow Pokémon that slips through the dark and loves a good scare."
+primary_type = "ghost"
+secondary_type = "poison"
+attack = 65
+speed = 110
+moves = Array[ExtResource("1_li1w4")]([ExtResource("2_8135i"), ExtResource("3_t0151"), ExtResource("4_32psp"), ExtResource("5_jkoe4")])
+body_color = Color(0.42745098, 0.3529412, 0.6117647, 1)
+belly_color = Color(0.34117648, 0.27450982, 0.5137255, 1)
+accent_color = Color(1, 0.3019608, 0.42745098, 1)
+model_path = "res://assets/models/gengar.glb"
+battle_cry_pitch = 0.72
+unlock_regular_wins = 4
+unlock_rocket_wins = 1
+unlock_hint = "Win 4 regular matches or defeat Team Rocket"

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="PokemonData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/move_data.gd" id="1_o4vad"]
+[ext_resource type="Resource" path="res://data/moves/thunderbolt.tres" id="2_db00y"]
+[ext_resource type="Resource" path="res://data/moves/quick_attack.tres" id="3_uvki1"]
+[ext_resource type="Resource" path="res://data/moves/electro_ball.tres" id="4_0sv7y"]
+[ext_resource type="Resource" path="res://data/moves/thunder_wave.tres" id="5_8yvn8"]
+[ext_resource type="Script" path="res://scripts/data/pokemon_data.gd" id="6_12vss"]
+
+[resource]
+script = ExtResource("6_12vss")
+id = "pikachu"
+display_name = "Pikachu"
+dex_number = 25
+description = "An energetic Electric-type with lightning in its cheeks and courage in its heart."
+primary_type = "electric"
+base_hp = 35
+attack = 55
+defense = 40
+speed = 90
+moves = Array[ExtResource("1_o4vad")]([ExtResource("2_db00y"), ExtResource("3_uvki1"), ExtResource("4_0sv7y"), ExtResource("5_8yvn8")])
+body_color = Color(1, 0.8509804, 0.2901961, 1)
+belly_color = Color(1, 0.9137255, 0.5411765, 1)
+accent_color = Color(1, 0.3529412, 0.37254903, 1)
+model_scale = 0.86
+model_path = "res://assets/models/pikachu.glb"
+battle_cry_pitch = 1.42
+unlock_regular_wins = 5
+unlock_rocket_wins = 2
+unlock_hint = "Win 5 regular matches or defeat 2 Team Rocket events"

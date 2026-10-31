@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="MoveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/move_data.gd" id="1_5rmxp"]
+
+[resource]
+script = ExtResource("1_5rmxp")
+id = "fire_fang"
+display_name = "Fire Fang"
+poke_type = "fire"
+power = 65
+accuracy = 95
+description = "Fiery fangs that may burn the target."
+effect = "burn"
+effect_chance = 10

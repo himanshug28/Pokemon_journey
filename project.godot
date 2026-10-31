@@ -1,0 +1,59 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Pokémon Journey"
+config/description="A colorful 3D Pokémon-inspired battle adventure."
+run/main_scene="res://scenes/ui/loading_screen.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0.035, 0.055, 0.13, 1)
+boot_splash/show_image=false
+config/icon="res://icon.svg"
+
+[application_run]
+
+disable_stdout=false
+
+[audio]
+
+buses/default_bus_layout=""
+
+[autoload]
+
+GameState="*res://scripts/autoload/game_state.gd"
+UIKit="*res://scripts/autoload/ui_kit.gd"
+AudioManager="*res://scripts/autoload/audio_manager.gd"
+AssetLibrary="*res://scripts/autoload/asset_library.gd"
+SceneRouter="*res://scripts/autoload/scene_router.gd"
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[gui]
+
+theme/default_font_multichannel_signed_distance_field=true
+theme/default_font_size=18
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=3
+anti_aliasing/quality/msaa_3d=2
+environment/defaults/default_clear_color=Color(0.03, 0.045, 0.1, 1)
+environment/defaults/default_environment="res://assets/default_env.tres"
